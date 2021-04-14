@@ -1,0 +1,26 @@
+*{
+    border:0;
+    box-sizing: border-box;
+    margin: 3;
+    padding: 0;
+}
+table{
+    margin: 0 auto;
+    width: 60%;
+}
+th,td{
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+}
+th{
+    background-color: purple(2, 2, 2);
+    color: black(255, 255, 255);
+}
+tr:nth-child(odd){
+    background-color: blue(70, 70, 78);
+    
+}
+body{
+    background-color: black(255, 255, 255);
+}
